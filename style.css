@@ -15,11 +15,6 @@ body {
     position: relative;
 }
 
-
-
-
-
-
 @font-face {
     font-family: 'Inter';
     src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
@@ -111,7 +106,7 @@ img {
 }
 
 label.hamburger {
-  position: relative;
+  position: absolute;
   top: 2px;
   right: 10px;
   width: 50px;
@@ -201,16 +196,11 @@ cursor: pointer;
 }
 
 .jacket2-img {
-    max-width: 100%;
-    margin-right: 40px;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
+    max-width: fit-content;
 }
 
 .jacket2-text h3 {
-    margin-top: 10px;
-    font-family: 'Inter';
+    margin-top: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -221,15 +211,6 @@ cursor: pointer;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    width: 300px;
-    height: 300px;
-    text-align: left;
-}
-
-.jacket2-wrapper {
-    margin-top: 10px;
-    display: flex;
-    justify-content: right;
 }
 
 /* Jacket 3 */
@@ -241,17 +222,13 @@ cursor: pointer;
     margin-right: 20px;
 }
 
-.jacket3-img {
-    max-width: 100%;
-    margin: auto;
-}
-
 .jacket3-text h3 {
     margin-top: 30px;
     font-family: 'Inter';
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
+    float: right;
 }
 
 .jacket3-wrapper p {
@@ -276,6 +253,7 @@ cursor: pointer;
 
 .jacket4-img {
     max-width: 100%;
+    background-image: 20px;
 }
 
 .jacket4-text h3 {
@@ -296,9 +274,6 @@ cursor: pointer;
     margin-top: 10px;
 }
 
-.jacket2-box, .jacket2-img {
-    background-color: red;
-}
 
 .jacket3-box {
     background-color: yellow;
