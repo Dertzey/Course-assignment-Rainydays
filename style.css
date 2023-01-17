@@ -111,7 +111,7 @@ img {
 }
 
 label.hamburger {
-  position: relative;
+  position: absolute;
   top: 2px;
   right: 10px;
   width: 50px;
@@ -203,9 +203,6 @@ cursor: pointer;
 .jacket2-img {
     max-width: 100%;
     margin-right: 40px;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
 }
 
 .jacket2-text h3 {
@@ -221,9 +218,6 @@ cursor: pointer;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    width: 300px;
-    height: 300px;
-    text-align: left;
 }
 
 .jacket2-wrapper {
@@ -281,6 +275,7 @@ cursor: pointer;
 .jacket4-text h3 {
     margin-top: 30px;
     font-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
 }
@@ -304,18 +299,4 @@ cursor: pointer;
     background-color: yellow;
 }
 
-
-
 /* Footer */
-
-footer {
-    background-color: #E14D2A;
-    width: 768px;
-    height: 41px;
-}
-
-footer p {
-    color: white;
-    font-family: 'Inter';
-    text-align: center
-}
