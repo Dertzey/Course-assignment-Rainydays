@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
+    format('truetype');
+}
+
+.logo-nav-container {
+    margin-left: 37px;
+    margin-top: 26px;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+body {
+    background-color: #F8F8F8;
+    background-image: url('./images/ww.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 212px;
+    height: 453px;
+    background-position: right
+}
+
+.menu li {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0px;
+    
+}
+
+ul {
+    margin-left: 37px;
+    margin-top: 77.08px;
+}
+
