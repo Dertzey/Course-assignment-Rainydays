@@ -19,7 +19,13 @@
     }
 
     li {
-        
+
         display: inline-block;
+    }
+    
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 30px; /* add 20px of space between columns */
     }
 }
