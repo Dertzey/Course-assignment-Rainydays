@@ -152,7 +152,7 @@ img {
 
 
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
     
     
     
@@ -202,5 +202,112 @@ img {
         grid-gap: 20px; 
         font-family: 'Inter';
     }
+}
+
+/* List of Jackets */
+
+.container {
+    margin: auto;
+    font-family: 'Inter';
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+
+.container p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 9px;
+}
+
+.jacket-img {
+    background-color: #9A9A9A;
+    width: 310px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.jacket1-img {
+    background-color: #9A9A9A;
+    width: 310px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.jacket2-img {
+    background-color: #9A9A9A;
+    width: 310px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.img1 {
+    width: 171px;
+    height: 208px;
+    display: flex;
+    align-items: center;
+}
+
+.jacket1-p {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 310px
+}
+
+.jacket1-p  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart {
+    width: 111px;
+    height: 28px;
+    background-color: #E14D2A;
+    border-radius: 5px;
+    border-radius: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.cart a { 
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.sizes-box {
+    width: 111px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 199px;
+}
+
+.h2btn {
+    margin-left: 20px;
+    max-width: 310px;
+    margin: auto;
+    background-color: red;
+}
+
+.cart {
+    margin-top: 10px;
+    margin-left: 199px;
     
 }
