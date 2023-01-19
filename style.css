@@ -75,16 +75,15 @@ img {
 
 #main-list li {
     font-family: 'Inter';
-    font-weight: bold;
-    font-size: 24px;
-    margin: 30px 0px;  
-    padding: 4px 0;
+    font-size: 21px;
+    margin: 30px 10px;  
+    margin-left: 30px;
+    padding: 4px
 }
 
 
 #main-nav a {
     margin-left: 7px;
-    display: flex;
 }
 
 /* Main */
@@ -213,19 +212,19 @@ img {
 
 .container h2 {
     font-weight: 700;
+    margin-bottom: 7px;
     font-size: 18px;
-    display: flex;
-    justify-content: space-between;
     margin-top: 12px;
+    float: left;
 
 }
 
 .container p {
     font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     font-style: bold;
-    margin-top: 9px;
+    margin-top: 10px;
 }
 
 .jacket-img {
@@ -235,25 +234,9 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 20px;
 }
 
-.jacket1-img {
-    background-color: #9A9A9A;
-    width: 310px;
-    height: 208px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
-.jacket2-img {
-    background-color: #9A9A9A;
-    width: 310px;
-    height: 208px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
 
 .img1 {
     width: 171px;
@@ -263,16 +246,16 @@ img {
 }
 
 .jacket1-p {
-    display: flex;
-    justify-content: flex-start;
     margin: auto;
     width: 310px
 }
 
 .jacket1-p  {
-    display: flex;
-    justify-content: space-between;
+    width: 310px;
+    margin-bottom: 40px;
+    margin: auto;
 }
+
 
 .cart {
     width: 111px;
@@ -282,6 +265,7 @@ img {
     border-radius: none;
     border-style: none;
     cursor: pointer;
+    float: right;
 }
 
 .cart a { 
@@ -296,18 +280,38 @@ img {
     width: 111px;
     border-radius: 5px;
     margin-top: 5px;
-    margin-left: 199px;
+    float: right;
 }
 
 .h2btn {
     margin-left: 20px;
     max-width: 310px;
     margin: auto;
-    background-color: red;
 }
 
 .cart {
     margin-top: 10px;
-    margin-left: 199px;
-    
+    float: right;
+}
+
+.footer-wrapper {
+    background-color: #E14D2A;
+    width: 100%;
+    position: absolute;
+
+}
+
+.footer-wrapper p{
+    margin: auto;
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+
+
+}
+
+.fa-brands {
+    color: white;
+    font-size: 20px;
+    float: right;
 }
