@@ -114,9 +114,13 @@ img {
     font-family: 'Inter';
     font-size: 14px;
     margin-left: 60px;
+    text-align: left;
 }
 
-
+.push1 a {
+    color: white;
+    font-family: 'Inter';
+}
 
 .push2 {
     display: flex;
@@ -136,7 +140,6 @@ img {
     margin-left: 60px;
     margin-right: -33px;
 }
-
 /* Featured Collection */
 
 .title {
@@ -203,6 +206,13 @@ img {
     }
 }
 
+.jacket-box, p {
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
 /* List of Jackets */
 
 .container {
@@ -228,7 +238,7 @@ img {
 }
 
 .jacket-img {
-    background-color: #9A9A9A;
+    background-color: rgba(154, 154, 154, 0.34);
     width: 310px;
     height: 208px;
     display: flex;
@@ -241,13 +251,16 @@ img {
 .img1 {
     width: 171px;
     height: 208px;
+    margin: auto;
     display: flex;
     align-items: center;
 }
 
-.jacket1-p {
-    margin: auto;
-    width: 310px
+.jacket1-p p {
+    width: 310px;
+    display: flex;
+    justify-content: left;
+
 }
 
 .jacket1-p  {
@@ -294,24 +307,122 @@ img {
     float: right;
 }
 
+
+/* Footer */
 .footer-wrapper {
     background-color: #E14D2A;
-    width: 100%;
-    position: absolute;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
 
+.icons {
+    display: inline-block;
+    width: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-wrapper p{
     margin: auto;
     color: white;
     font-family: 'Inter';
-    font-size: 20px;
-
-
+    font-size: 18px;
 }
 
 .fa-brands {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     float: right;
+    margin-bottom: 2px;
 }
+
+
+/* Product styling */
+
+.jacket-container {
+    height: 276px;
+    width: 330px;
+    background-color: rgba(154, 154, 154, 0.34);
+    border: #E14D2A 2px solid;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.jacket-container img {
+    width: 190px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+.product-title {
+    width: 330px;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.add-price-wrapper {
+    width: 330px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+.cart-product {
+    width: 111px;
+    height: 28px;
+    background-color: #E14D2A;
+    border-radius: 5px;
+    border-radius: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.desc-wrapper p  {
+    width: 330px;
+    margin: auto;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.p-wrapper p {
+    width: 330px;
+    margin: auto;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+
+.fa-sharp {
+    font-size: 40px;
+    top: 70px;
+    left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
