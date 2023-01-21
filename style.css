@@ -37,11 +37,6 @@ header {
 }
 
 
-.fa-solid, .fas {
-    position: fixed;
-}
-
-
 header a {
     color: black;
 }
@@ -316,6 +311,8 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin: auto;
+    margin-top: 40px;
     
 }
 
@@ -352,7 +349,7 @@ img {
     background-color: rgba(154, 154, 154, 0.34);
     border: #E14D2A 2px solid;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .jacket-container img {
@@ -378,6 +375,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: 9px;
+    font-family: 'Inter';
 }
 
 .cart-product {
@@ -414,15 +412,93 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    margin-top: 8px;
+    margin-bottom: 35px;
 }
 
 
 .fa-sharp {
-    font-size: 40px;
-    top: 70px;
-    left: 30px;
+    font-size: 30px;
+    margin-left: 30px;
     text-decoration: none;
     color: black;
 }
+/* Shopping Cart */
 
+.cart-wrapper {
+    border: #E14D2A 2px solid;
+    width: 330px;
+    height: 267px;
+    margin: auto;
+}
+
+.cart-wrapper h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0px;
+    margin-left: 20px;
+    
+}
+
+
+.cart-wrapper p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    text-align: right;
+    margin-left: 10px;
+    
+}
+
+.frame {
+    background-color: rgba(154, 154, 154, 0.34);
+    width: 75px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.frames {
+    width: 317px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+
+}
+
+.jacket-cart {
+    max-width:100%;
+    max-height:100%;
+
+}
+
+.date-wrapper {
+    font-family: 'Inter';
+    border: #E14D2A 2px solid;
+    width: 330px;
+    height: 68px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.date-wrapper h1{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.date-wrapper p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.checkout-wrapper {
+    width: 317px;
+    height: 267px;
+}
