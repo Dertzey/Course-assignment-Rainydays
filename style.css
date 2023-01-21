@@ -1,86 +1,84 @@
 /*Font(s), Colors, Weight*/
-
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
+    format('truetype');
+}
+ 
 * {
     padding: 0px;
     margin: 0px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
-
-
-
+ 
+ 
+ 
 body {
     background-color: #ffffff;
     position: relative;
 }
-
-@font-face {
-    font-family: 'Inter';
-    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
-    format('truetype');
-}
-
-
+ 
+ 
 /*Header*/
-
+ 
 header {
     width: 100%;
     height: 62px;
     display: flex;
     justify-content: space-between;
 }
-
+ 
 .logo1 {
     margin-top: 10px;
     margin-left: 20px;
 }
-
-
+ 
+ 
 header a {
     color: black;
 }
-
-
+ 
+ 
 img {
     max-width: 100%;
     width: auto;
     height: auto;
 }
-
+ 
 .nav-bar {
     float: right;
 }
-
+ 
 .hidden, #hamburger {
     display: none
 }
-
+ 
 #hamburger:checked ~ #main-list {
     display: block;
 }
-
+ 
 #main-list {
     position: absolute;
-    font-family: 'Inter';
     font-weight: bold;
     font-size: 24px;
     margin: 30px 0px; 
 }
-
+ 
 #main-list li {
-    font-family: 'Inter';
     font-size: 21px;
     margin: 30px 10px;  
     margin-left: 30px;
     padding: 4px
 }
-
-
+ 
+ 
 #main-nav a {
     margin-left: 7px;
 }
-
+ 
 /* Main */
 .push1 {
     background-image: url('./images/background1.jpg');
@@ -92,36 +90,33 @@ img {
     background-position-x: right;
     background-position-y: bottom;
 }
-
-
+ 
+ 
 .push1 h1 {
     color: white;
-    font-family: 'Inter';
     font-size: 24px;
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 15px;
-
+ 
 }
-
+ 
 .push1 p {
     color: white;
-    font-family: 'Inter';
     font-size: 14px;
     margin-left: 60px;
     text-align: left;
 }
-
+ 
 .push1 a {
     color: white;
-    font-family: 'Inter';
 }
-
+ 
 .push2 {
     display: flex;
     justify-content: space-around;
 }
-
+ 
 .push1 button {
     border: none;
     margin-left: 108px;
@@ -129,26 +124,23 @@ img {
     height: 23px;
     background-color: #E14D2A;
     color: white;
-    font-family: 'Inter';
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 60px;
     margin-right: -33px;
 }
 /* Featured Collection */
-
+ 
 .title {
     margin: auto;
     font-size: 19px;
-    font-family: in;
-    font-family: 'Inter';
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-
+ 
+ 
+ 
 @media (min-width: 1px) and (max-width: 767px) {
     
     
@@ -159,7 +151,7 @@ img {
         left: 0;
         right: 0;
         bottom: 0;
-        font-family: 'Inter';
+ 
         font-weight: bold;
         font-size: 24px;
         margin: 0px 0px; 
@@ -188,50 +180,47 @@ img {
     background-position: center;
     cursor: pointer;
     }
-
+ 
     .desktop {
         display: none;
     }
-
+ 
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px; 
-        font-family: 'Inter';
+ 
     }
 }
-
+ 
 .jacket-box, p {
     align-items: center;
     text-align: center;
-    font-family: 'Inter';
     font-weight: 500;
 }
-
+ 
 /* List of Jackets */
-
+ 
 .container {
     margin: auto;
-    font-family: 'Inter';
 }
-
+ 
 .container h2 {
     font-weight: 700;
     margin-bottom: 7px;
     font-size: 18px;
     margin-top: 12px;
     float: left;
-
+ 
 }
-
+ 
 .container p {
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 18px;
     font-style: bold;
     margin-top: 10px;
 }
-
+ 
 .jacket-img {
     background-color: rgba(154, 154, 154, 0.34);
     width: 310px;
@@ -241,8 +230,8 @@ img {
     margin: auto;
     margin-top: 20px;
 }
-
-
+ 
+ 
 .img1 {
     width: 171px;
     height: 208px;
@@ -250,21 +239,21 @@ img {
     display: flex;
     align-items: center;
 }
-
+ 
 .jacket1-p p {
     width: 310px;
     display: flex;
     justify-content: left;
-
+ 
 }
-
+ 
 .jacket1-p  {
     width: 310px;
     margin-bottom: 40px;
     margin: auto;
 }
-
-
+ 
+ 
 .cart {
     width: 111px;
     height: 28px;
@@ -275,34 +264,33 @@ img {
     cursor: pointer;
     float: right;
 }
-
+ 
 .cart a { 
     color: white;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
 }
-
+ 
 .sizes-box {
     width: 111px;
     border-radius: 5px;
     margin-top: 5px;
     float: right;
 }
-
+ 
 .h2btn {
     margin-left: 20px;
     max-width: 310px;
     margin: auto;
 }
-
+ 
 .cart {
     margin-top: 10px;
     float: right;
 }
-
-
+ 
+ 
 /* Footer */
 .footer-wrapper {
     background-color: #E14D2A;
@@ -315,7 +303,7 @@ img {
     margin-top: 40px;
     
 }
-
+ 
 .icons {
     display: inline-block;
     width: 115px;
@@ -325,24 +313,23 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
+ 
 .footer-wrapper p{
     margin: auto;
     color: white;
-    font-family: 'Inter';
     font-size: 18px;
 }
-
+ 
 .fa-brands {
     color: white;
     font-size: 18px;
     float: right;
     margin-bottom: 2px;
 }
-
-
+ 
+ 
 /* Product styling */
-
+ 
 .jacket-container {
     height: 276px;
     width: 330px;
@@ -351,33 +338,31 @@ img {
     margin: auto;
     margin-top: 50px;
 }
-
+ 
 .jacket-container img {
     width: 190px;
     height: 250px;
     margin-top: 10px;
     margin-left: 65px;
 }
-
+ 
 .product-title {
     width: 330px;
     margin: auto;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     margin-top: 9px;
 }
-
+ 
 .add-price-wrapper {
     width: 330px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 9px;
-    font-family: 'Inter';
 }
-
+ 
 .cart-product {
     width: 111px;
     height: 28px;
@@ -387,35 +372,32 @@ img {
     border-style: none;
     cursor: pointer;
     color: white;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
 }
-
+ 
 .desc-wrapper p  {
     width: 330px;
     margin: auto;
     text-align: left;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     margin-top: 14px;
 }
-
+ 
 .p-wrapper p {
     width: 330px;
     margin: auto;
     text-align: left;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 35px;
 }
-
-
+ 
+ 
 .fa-sharp {
     font-size: 30px;
     margin-left: 30px;
@@ -423,33 +405,31 @@ img {
     color: black;
 }
 /* Shopping Cart */
-
+ 
 .cart-wrapper {
     border: #E14D2A 2px solid;
     width: 330px;
     height: 267px;
     margin: auto;
 }
-
+ 
 .cart-wrapper h1 {
-    font-family: 'Inter';
     font-weight: 700;
     font-size: 18px;
     margin: 10px 0px;
     margin-left: 20px;
     
 }
-
-
+ 
+ 
 .cart-wrapper p {
-    font-family: 'Inter';
     font-weight: 700;
     font-size: 12px;
     text-align: right;
     margin-left: 10px;
     
 }
-
+ 
 .frame {
     background-color: rgba(154, 154, 154, 0.34);
     width: 75px;
@@ -459,24 +439,23 @@ img {
     justify-content: center;
     margin-left: 10px;
 }
-
+ 
 .frames {
     width: 317px;
     height: 56px;
     display: flex;
     align-items: center;
     margin-top: 12px;
-
+ 
 }
-
+ 
 .jacket-cart {
     max-width:100%;
     max-height:100%;
-
+ 
 }
-
+ 
 .date-wrapper {
-    font-family: 'Inter';
     border: #E14D2A 2px solid;
     width: 330px;
     height: 68px;
@@ -484,20 +463,20 @@ img {
     margin-top: 20px;
     text-align: left;
 }
-
+ 
 .date-wrapper h1{
     font-size: 18px;
     margin-left: 20px;
     margin-top: 7px;
 }
-
+ 
 .date-wrapper p {
     text-align: left;
     margin-left: 20px;
     margin-top: 6px;
     font-weight: 500;
 }
-
+ 
 .checkout-wrapper {
     width: 317px;
     height: 267px;
