@@ -55,6 +55,10 @@ img {
 .hidden, #hamburger {
     display: none
 }
+
+.hidden-on-mobile {
+    display: none;
+}
  
 #hamburger:checked ~ #main-list {
     display: block;
@@ -405,7 +409,6 @@ img {
     color: black;
 }
 /* Shopping Cart */
- 
 .cart-wrapper {
     border: #E14D2A 2px solid;
     width: 330px;
@@ -480,4 +483,218 @@ img {
 .checkout-wrapper {
     width: 317px;
     height: 267px;
+}
+
+/* About */
+.showcase3 {
+    text-align: center;
+}
+
+.showcase3 .img-container  {
+    background-image: url("images/image\ 7.png");
+    background-position: center;
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+}
+
+.showcase3-h1 {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 45px; 
+    width: 100%;
+}
+
+.story_box {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.story_box h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.story_box p {
+    font-weight: bold;
+    max-width: 95%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact Page */
+.contact-hero {
+    background-color: #E14D2A;
+    color: white;
+}
+
+.contact-text {
+    padding-top: 55px;
+    padding-bottom: 35px;
+    padding-left: .5em;
+    margin: 5px;
+}
+
+.contact-image-container {
+    display: none;
+}
+
+.contact-hero img {
+    width: auto;
+    height: auto;
+}
+
+.contact-text p {
+    text-align: left;
+}
+
+.contact-text h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.contact-text h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.contact-form h1 {
+    margin-bottom: 15px;
+}
+
+.contact-form input[type=text],
+.contact-form textarea {
+    background-color: #9C9B9B;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type=text]::placeholder,
+.contact-form textarea::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input.default-button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-submit-button {
+    border: none;
+    width: 248px;
+    height: 40px;
+    background-color: #E14D2A;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+/* Checkout success */
+.checkout-success-section {
+    width: 90%;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .checkout-success-thank-you {
+    text-align: center;
+}
+
+.checkout-success-order-id {
+    background-color: #BFBFBE;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkout-success-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkout-success-order-summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.checkout-success-order-summary p, .checkout-success-item p:first-child {
+    text-align: left;
+    font-size: 13px;
+}
+
+.checkout-success-item:first-child {
+  grid-column: 1 / -1;
+}
+
+.checkout-success-item p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.checkout-success-item .frame {
+    margin-left: 0;
+}
+
+.frames p.cart-text {
+    margin-left: 5px;
+}
+
+.checkout-success-grand-total {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    display: flex;
+}
+
+.checkout-success-grand-total p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.checkout-success-grand-total p:nth-child(2) {
+    text-indent: 2.5em;
+    margin-top: 0;
+}
+
+.checkout-success-continue-btn {
+    border: none;
+    background-color: #E14D2A;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
 }
