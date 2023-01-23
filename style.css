@@ -55,11 +55,6 @@ img {
 .hidden, #hamburger {
     display: none
 }
-
-.hidden-on-mobile {
-    display: none;
-}
- 
 #hamburger:checked ~ #main-list {
     display: block;
 }
@@ -494,7 +489,7 @@ img {
     background-image: url("images/image\ 7.png");
     background-position: center;
     position: relative;
-    min-height: 500px;
+    min-height: 400px;
     width: 100%;
 }
 
@@ -529,6 +524,10 @@ img {
 .contact-hero {
     background-color: #E14D2A;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .contact-text {
@@ -539,14 +538,11 @@ img {
 }
 
 .contact-image-container {
-    display: none;
+    background-image: url('/images/contact.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
-
-.contact-hero img {
-    width: auto;
-    height: auto;
-}
-
 .contact-text p {
     text-align: left;
 }

@@ -20,7 +20,7 @@
         margin-left: 20px;
     }
 
-    .arrow, .fa-solid, .fas, .hamburger {
+     .fa-solid, .fas, .hamburger {
         display: none;
     }
 
@@ -98,6 +98,13 @@
     /* Product stylng */
     .product-title, .add-price-wrapper, .desc-wrapper p, .p-wrapper p {
         width: 100%;
+    }
+
+    .fa-sharp {
+        font-size: 30px;
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
     }
 
     .jacket-product {
