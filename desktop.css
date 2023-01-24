@@ -44,10 +44,10 @@
         height: 507px;
       }
 
-    .menu ul li {
+    .menu li {
         display: inline-block;
         padding: 20px 10px;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 20px;
     }
 
@@ -134,9 +134,8 @@
     }
 
     .jacket-container {
-        width: 330px;
-        height: 267px;
-        margin: auto;
+        width: 640px;
+        height: 472px;
         text-align: center;
         margin: 0;
     }
