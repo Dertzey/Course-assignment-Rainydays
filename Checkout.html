@@ -8,33 +8,36 @@
         <link rel="stylesheet" href="desktop.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/12c76f5aa4.js" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
         <title>Home | Rainydays</title>
     </head>
 <body>
     <header id="main-header">
         <nav class="desktop">
             <div class="logo-nav-container">
-                <a href="index.html"><img src="images/rainyyy 1.png" alt="Rainydays logo"></a>
+                <a href="index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo"></a>
             </div>
-            <div class="menu2">
+            <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Jackets.html">Jackets</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><img src="/images/Group 13.png"></li>
+                    <li class="list-item">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Jackets.html">Jackets</a></li>
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                    <a href="Checkout.html"><img src="/images/Group 13.png" class="shopping-list1"></a>
                 </ul>
         </nav>
-        <a href="index.html"><img src="images/rainyyy 1.png" alt="Rainydays logo" class="logo1"></a>
+        <a href="../index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo1"></a>
         <nav id="main-nav">
+            <a href="Checkout.html"><img src="/images/Group 13.png" class="shopping-list"></a>
             <input id="hamburger" type="checkbox">
             <label for="hamburger" class="hamburger"><i class="fa-solid fa-bars"></i></label>
             <ul id="main-list" class="hidden">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Jackets.html">Jackets</a></li>
-                <li><a href="Cart.html">Cart</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Jackets.html">Jackets</a></li>
+                <li><a href="../Cart.html">Cart</a></li>
+                <li><a href="../About.html">About</a></li>
+                <li><a href="../Contact.html">Contact</a></li>
             </ul>  
         </nav>
     </header>
@@ -71,17 +74,38 @@
 
             <div class="checkout-wrapper">
                 <h1>Total amount</h1>
-                <p>Products:</p>
-                <p>Shipping:</p>
+                <div class="product-price">
+                    <p>Products:</p>
+                    <p>€1 194</p>
+                </div>
+                <div class="shipping-price">
+                    <p>Shipping:</p>
+                    <p>€99</p>
+                </div>
+                <span class="line"></span>
+                <div class="total-price">
                 <p>Total:</p>
-                <p>€1 194</p>
-                <p>€99</p>
                 <p>€1 293</p>
-    
-                <h1>Payment method:</h1>
-                <p>Credit/Debit card
-                <p>Paypal/Vipps</p>
-                <a href="#">Checkout</a>
+                </div>
+                <form>
+                    <div class="creditdebit-wrapper">
+                    <input type="radio" id="creditdebit" name="paymentmethod" value="creditdebit" checked>
+                    <label for="creditdebit">Credit/Debit card</label><br>
+                    <div class="cards">
+                    <iconify-icon icon="logos:visa"></iconify-icon>
+                    <iconify-icon icon="logos:mastercard"></iconify-icon>
+                    <iconify-icon icon="fontisto:american-express"></iconify-icon>
+                    </div>
+                    </div>
+                    <div class="paypalvipps-wrapper">
+                    <input type="radio" id="paypalvipps" name="paymentmethod" value="paypalvipps">
+                    <label for="paypalvipps">Paypal/Vipps</label>
+                    <div class="cards1">
+                    <iconify-icon icon="logos:paypal"></iconify-icon>
+                    </div>
+                    </div>
+                  </form>
+                <button class="checkout-btn"><a href="Checkout_Success.html">Checkout</a></button>
             </div>
         </section>
     </main>
