@@ -1,4 +1,15 @@
 @media (min-width: 768px) {
+    .desktop-full-body-height {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .desktop-footer-sticky {
+        margin-top: auto;
+    }
+    
     .logo-nav-container {
         margin-top: auto;
         margin-bottom: auto;

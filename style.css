@@ -348,7 +348,16 @@ img {
     float: right;
     margin-bottom: 2px;
 }
- 
+
+.desktop-full-body-height {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop-footer-sticky {
+    margin-top: auto;
+}
  
 /* Product styling */
  
@@ -393,6 +402,11 @@ img {
     border-radius: none;
     border-style: none;
     cursor: pointer;
+    text-align: center;
+}
+
+.cart-product a{
+    margin-top: 20px;
     color: white;
     font-style: normal;
     font-weight: 400;
