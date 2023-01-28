@@ -587,8 +587,10 @@ img {
     height: 43px;
     border-radius: 15px;
     border: none;
-    margin-left: px;
+    margin-left: 20px;
     margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .checkout-btn a {
