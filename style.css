@@ -311,22 +311,14 @@ img {
  
  
 /* Footer */
-.footer-wrapper1 {
-    position: fixed;
-    bottom: 0;
-    width: 1300px;
-}
-
-
-.footer-style {
+.footer-wrapper {
     background-color: #E14D2A;
     color: white;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: auto;
-  
+    margin-top: 0px;
 }
  
 .icons {
