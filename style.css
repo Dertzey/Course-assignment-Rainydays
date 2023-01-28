@@ -340,13 +340,7 @@ img {
     margin: auto;
     color: white;
     font-size: 18px;
-}
- 
-.fa-brands {
-    color: white;
-    font-size: 18px;
-    float: right;
-    margin-bottom: 2px;
+    font-weight: 700;
 }
 
 .desktop-full-body-height {
