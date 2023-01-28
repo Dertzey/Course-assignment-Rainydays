@@ -132,9 +132,10 @@ img {
  
 .push1_button {
     border: none;
+    margin-top: 20px;
     margin-left: 108px;
-    width: 82px;
-    height: 23px;
+    width: 90px;
+    height: 24px;
     background-color: #E14D2A;
     color: white;
     border-radius: 5px;
@@ -142,6 +143,7 @@ img {
     margin-left: 60px;
     margin-right: -33px;
     cursor: pointer;
+    text-decoration: none;
 }
 /* Featured Collection */
  
@@ -278,6 +280,8 @@ img {
     border-style: none;
     cursor: pointer;
     float: right;
+    color: white;
+    text-align: center;
 }
 
 .cart:active {
@@ -289,6 +293,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+    text-align: center;
 }
  
 .sizes-box {
